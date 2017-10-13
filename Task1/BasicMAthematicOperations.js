@@ -1,21 +1,21 @@
-  function basicOp(operation, value1, value2)
+function basicOp(operation, value1, value2)
 {
    var result;
    switch(operation) {
-    case "+":
+    case '+':
         result=value1+value2;
         break;
-     case "-":
+     case '-':
        result=value1-value2;
         break;
-    case "*":
+    case '*':
         result=value1*value2;
         break;
-        case "/":
+    case '/':
         result=value1/value2;
         break;
     default:
-          text = "Inavlid operation";
+          text = 'Inavlid operation';
 } 
 return result;          
 }
