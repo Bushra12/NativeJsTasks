@@ -15,7 +15,7 @@ function basicOp(operation, value1, value2) {
             break;
         default:
             result = 'Inavlid operation';
-			break;
+            break;
     }
     return result;
 }
