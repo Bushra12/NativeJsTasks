@@ -14,7 +14,7 @@ function basicOp(operation, value1, value2) {
             result = value1 / value2;
             break;
         default:
-            text = 'Inavlid operation';
+            result = 'Inavlid operation';
 			break;
     }
     return result;
